@@ -199,7 +199,7 @@
       <tvExp>0</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
-      <PathWithFileName>Y:\Downloads\startup_rvmdk.S</PathWithFileName>
+      <PathWithFileName>C:\Keil_v5\driverlib\startup_rvmdk.S</PathWithFileName>
       <FilenameWithoutPath>startup_rvmdk.S</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
