@@ -80,7 +80,7 @@ int main(void)
         //
         // Delay for a bit.
         //
-        for(ui32Loop = 0; ui32Loop < 40000; ui32Loop++)
+        for(ui32Loop = 0; ui32Loop < 400000; ui32Loop++)
         {
         }
     }
