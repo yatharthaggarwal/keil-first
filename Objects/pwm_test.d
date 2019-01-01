@@ -1,0 +1,10 @@
+.\objects\pwm_test.o: PWM_test.c
+.\objects\pwm_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pwm_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\inc/hw_memmap.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\inc/hw_gpio.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\driverlib/pin_map.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\driverlib/debug.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\driverlib/gpio.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\driverlib/sysctl.h
+.\objects\pwm_test.o: C:\Keil_v5\driverlib\driverlib/pwm.h

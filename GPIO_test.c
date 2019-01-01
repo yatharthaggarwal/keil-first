@@ -5,28 +5,7 @@
 #include "driverlib/gpio.h"
 #include "driverlib/sysctl.h"
 
-//*****************************************************************************
-//
-//! \addtogroup example_list
-//! <h1>Blinky (blinky)</h1>
-//!
-//! A very simple example that blinks the on-board LED using direct register
-//! access.
-//
-//*****************************************************************************
 
-//*****************************************************************************
-//
-// The error routine that is called if the driver library encounters an error.
-//
-//*****************************************************************************
-#ifdef DEBUG
-void
-__error__(char *pcFilename, uint32_t ui32Line)
-{
-    while(1);
-}
-#endif
 
 //*****************************************************************************
 //
@@ -53,7 +32,7 @@ int main(void)
     // Enable the GPIO pin for the LED (PF3).  Set the direction as output, and
     // enable the GPIO pin for digital function.
     //
-    GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_3);
+    GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_2);
 
     //
     // Loop forever.
@@ -63,7 +42,7 @@ int main(void)
         //
         // Turn on the LED.
         //
-        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3, GPIO_PIN_3);
+        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_2, 0x4);
 
         //
         // Delay for a bit.
@@ -72,16 +51,12 @@ int main(void)
         {
         }
 
-        //
-        // Turn off the LED.
-        //
-        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_3, 0x0);
-
-        //
-        // Delay for a bit.
-        //
-        for(ui32Loop = 0; ui32Loop < 40000; ui32Loop++)
+       
+        GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_2, 0x0);
+				for(ui32Loop = 0; ui32Loop < 40000; ui32Loop++)
         {
         }
+				
+				
     }
 }

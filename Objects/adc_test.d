@@ -1,0 +1,11 @@
+.\objects\adc_test.o: ADC_test.c
+.\objects\adc_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\inc/hw_memmap.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\inc/hw_gpio.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\inc/hw_types.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\driverlib/pin_map.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\driverlib/debug.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\driverlib/gpio.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\driverlib/sysctl.h
+.\objects\adc_test.o: C:\Keil_v5\driverlib\driverlib/adc.h
