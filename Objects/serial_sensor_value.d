@@ -1,0 +1,14 @@
+.\objects\serial_sensor_value.o: Serial_Sensor_Value.c
+.\objects\serial_sensor_value.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\inc/hw_memmap.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\inc/hw_gpio.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\inc/hw_types.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\driverlib/pin_map.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\driverlib/debug.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\driverlib/gpio.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\driverlib/sysctl.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\driverlib/adc.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\driverlib/uart.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\driverlib\utils/uartstdio.h
+.\objects\serial_sensor_value.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h

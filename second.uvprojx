@@ -387,9 +387,9 @@
               <FilePath>C:\Keil_v5\driverlib\startup_rvmdk.S</FilePath>
             </File>
             <File>
-              <FileName>ADC_test.c</FileName>
+              <FileName>Interrupt_test.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\ADC_test.c</FilePath>
+              <FilePath>.\Interrupt_test.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -400,6 +400,11 @@
               <FileName>driverlib.lib</FileName>
               <FileType>4</FileType>
               <FilePath>C:\Keil_v5\driverlib\driverlib\rvmdk\driverlib.lib</FilePath>
+            </File>
+            <File>
+              <FileName>uartstdio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>C:\Keil_v5\driverlib\utils\uartstdio.c</FilePath>
             </File>
           </Files>
         </Group>
